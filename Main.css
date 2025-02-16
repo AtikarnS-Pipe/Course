@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: rgb(40, 40, 40);
+    width: 1000px;
+}
+.element {
+    width: 300px; /* ความกว้าง 50% ของคอนเทนเนอร์ */
+    font-size: 1.2rem; /* ขนาดฟอนต์ 1.2 เท่าของขนาดฟอนต์เริ่มต้น */
+  }
+.top {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: monospace;
+    background: linear-gradient(to right, rgb(58, 44, 24), rgb(235, 188, 78));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.mid-0{
+    margin-top: 50px;
+    margin-left: 580px;
+    margin-bottom: -88px;
+    font-size: 30px;
+    font-family: monospace;
+    background: linear-gradient(to right, rgb(79, 42, 34), rgb(226, 102, 71) , rgb(255, 242, 67));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.mid-top {
+    margin: 150px 550px;
+    color: white;
+    font-family: monospace;
+    position: relative;
+    right: 40px;
+    display: flex;
+}
+.mid-1{
+    margin-right: 80px;
+    padding: 50px 60px;
+    border: 1.5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+.mid-1:hover{
+    color: black;
+    background-color: white;
+    border: 1.5 solid black;
+}
+.mid-1 h2 {
+    position: relative;
+    right: 5px;
+    top: 10px;
+}
+.info1{
+    margin-right: 600px;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 675px;
+    cursor: pointer;
+}
+.info1:hover{
+    color: red;
+}
+
+.mid-2 {
+    padding: 50px 65px;
+    border: 1.5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+.mid-2:hover{
+    color: black;
+    background-color: white;
+    border: 1.5 solid black;
+}
+.mid-bottom{
+    margin-left: 510px;
+    color: white;
+    font-family: monospace;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+}
+.mid-3{
+    padding: 60px 70px;
+    margin-right: 40px;
+    border: 1.5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+.mid-3:hover{
+    color: black;
+    background-color: white;
+    border: 1.5 solid black;
+}
+.mid-4{
+    margin-left: 35px;
+    padding: 55px 38px;
+    border: 1.5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+.mid-4:hover{
+    color: black;
+    background-color: white;
+    border: 1.5 solid black;
+}

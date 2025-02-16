@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+.Form{
+    position: relative;
+    margin: 40px 550px;
+    padding: 200px 20px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.login {
+    margin-bottom: 10px;
+    margin-top: -120px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 20px;
+    background: linear-gradient(to right, rgb(123, 62, 255),rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    /* display: inline-block; */
+}
+.username{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    
+}
+.username.label {
+  margin-left: 10px;
+  position: absolute;
+  right: 338px;
+  bottom: 440px; /* Adjust positioning as needed */
+  transform: translateY(0px);
+  transition: transform 0.5s, opacity 0.5s;
+  pointer-events: none;
+  opacity: 0.3;
+}
+.password.label {
+  margin-left: 10px;
+  position: absolute;
+  right: 342px;
+  bottom: 383px; /* Adjust positioning as needed */
+  transform: translateY(0px);
+  transition: transform 0.5s, opacity 0.5s;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.username i{
+    margin-left: 350px;
+    position: relative;
+    bottom: 30px;
+}
+.password i{
+    margin-left: 350px;
+    position: relative;
+    bottom: 30px;
+}
+input[type="text"],input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    background: transparent;
+    position: relative;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+input[type="text"]:focus + .username.label,
+input[type="password"]:focus + .password.label {
+  transform: translateY(-20px);
+  font-size: 0.9em;
+  opacity: 1.2;
+}
+
+.signin {
+    margin-bottom: 30px;
+    margin-top: 45px;
+    border: 1.5px solid white;
+    padding: 10px 170px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, rgb(101, 101, 101) , rgb(0, 0, 0));
+    cursor: pointer;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+}
+.signup {
+    margin-left: 70px;
+    display: flex;
+}
+.signup h4 {
+    margin-right: 7px;
+}
+.signup a{
+    color: rgb(152, 152, 255);
+}
+.signup a:hover{
+    color: rgb(229, 253, 111);
+}
+.signup a:active{
+    color: rgb(255, 108, 113);
+}

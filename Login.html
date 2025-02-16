@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="Login.js"></script>
+</head>
+<body>
+    <div class="Form">
+        <div class="login">
+            <h1>Login</h1>
+        </div>
+        <div class="username">
+            <form action="">
+                <input type="text" id="username" name="username" required>
+                <label for="username" class="username label">Username</label>
+            </form>
+            <i class='bx bxs-user'></i>
+        </div>
+
+        <div class="password">
+            <form action="">
+                <input type="password" id="password" name="password" required>
+                <label for="password" class="password label">Password</label>
+            </form>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+        <div class="show">
+            <label>
+                <input type="checkbox" name="showpassword" onclick="myFunction()"> Show Password
+            </label>
+        </div>  
+        <div class="signin">
+            <h4><a href="#" onclick="getInfo()">Login</a></h4>
+        </div>
+      
+        <div class="signup">
+            <h4>Don't have an account?</h4>
+            <a href="Register.html">Register</a>
+        </div>
+        <div class="google-log">
+            
+        </div>
+    </div>
+</body>
+</html>
